@@ -1,0 +1,27 @@
+Networking fundamentals
+-IP Addressing: Unique numerical labels assigned to devices on a network (e.g., 192.168.1.1).
+-Subnetting: Divides IP ranges into smaller segments to improve traffic management.
+-CIDR Notation: Defines IP address ranges (e.g., 192.168.1.0/24 means 256 IP addresses).
+
+-DNS Records:
+--A: Maps domain to IP (IPv4).
+--CNAME: Maps one domain to another.
+
+
+-HTTP/HTTPS: Used for web traffic (ports 80, 443). HTTPS is secure.
+-SSH (Port 22): Secure remote access to servers.
+-FTP (Port 21): Transfers files between systems.
+-DNS (Port 53): Domain name lookups.
+-SMTP (Port 25): Email sending protocol.
+
+-Load Balancer: Distributes incoming requests across multiple servers to improve performance and reliability.
+-Reverse Proxy: Sits between clients and backend servers to forward requests, providing security and caching.
+
+-Firewall: Filters traffic based on rules, protecting networks from unauthorized access.
+-Security Groups: Virtual firewalls for cloud instances, defining allowed inbound/outbound traffic.
+
+-Vpc: our own personal cloud where we have Virtual Machine
+-Subnets: Segments within a VPC. Public subnets expose resources to the internet, while private subnets are internal.
+-Route Tables: Define how traffic is routed within a VPC.
+-Internet Gateway: Allows internet access for resources in public subnets.
+-NAT Gateway: Enables outbound internet traffic for private subnet instances.
