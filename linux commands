@@ -1,0 +1,10 @@
+(make sure you are at root( ~ symbol will be visible))
+
+
+pwd            : to find the current path
+cd ..          : to go back one file from current path
+sudo su-       : to switch to root user
+cat {filename} : content of filename will be displayed
+wget {url}     : to download from a link
+cp -r src des     : to copy file from src to des
+
